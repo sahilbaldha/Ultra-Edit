@@ -6,8 +6,8 @@
     height: 61px;
     align-items: center;
 }
-body 
-{
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body
 
 .ab ul li span {
     margin-left: 3px;
-    
+
 }
 
 .bc {
@@ -140,6 +140,7 @@ body
     place-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .gg :nth-child(1) {
     font-size: 27px;
     font-weight: 800;
@@ -165,7 +166,7 @@ body
     flex-direction: column;
     align-items: center;
     gap: 45px;
-    
+
 }
 
 .ll> :nth-child(1) {
@@ -174,9 +175,9 @@ body
     color: #00b6d1;
 }
 
-.ll>  :nth-child(2) {
-  margin-top: 10px;
-  font-size: 22px;
+.ll> :nth-child(2) {
+    margin-top: 10px;
+    font-size: 22px;
 }
 
 .ll> :nth-child(3) input {
@@ -184,7 +185,7 @@ body
     border-radius: 10px;
     width: 280px;
     height: 37px;
-    
+
 }
 
 .ll> :nth-child(4) button {
@@ -198,134 +199,141 @@ body
 }
 
 
-.uu 
-{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  
-  color: white; 
-  padding-bottom: 50px;
-  width: 60vw;
-  margin: auto;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.uu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    color: white;
+    padding-bottom: 50px;
+    width: 60vw;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.uu :nth-child(1)
-{
+.uu :nth-child(1) {
     font-size: 24px;
 }
-.uu :nth-child(2)
-{
+
+.uu :nth-child(2) {
     font-size: 18px;
 
-}.uu :nth-child(3)
-{
-   font-size: 18px;   
-}.uu :nth-child(4)
-{ 
-  font-size: 24px;  
 }
-.uu :nth-child(5)
-{
-     font-size: 18px;
+
+.uu :nth-child(3) {
+    font-size: 18px;
+}
+
+.uu :nth-child(4) {
+    font-size: 24px;
+}
+
+.uu :nth-child(5) {
+    font-size: 18px;
 }
 
 @media screen and (max-width:1330px) {
     .cd {
         display: grid;
         grid-template-columns: 1fr;
-    
+
     }
 
 }
+
 @media screen and (max-width:1005px) {
-      .oo 
-      {
+    .oo {
         grid-template-columns: 1fr;
-      } 
-      .uu 
-      {
+    }
+
+    .uu {
         grid-column-start: 1;
         grid-column-end: 2;
-      }
-      .ll{
+    }
+
+    .ll {
         place-self: center;
-      }
+    }
 }
-@media  screen and (max-width:1282px) {
+
+@media screen and (max-width:1282px) {
     .bc> :nth-child(1) {
         font-size: 24px;
     }
-    .bc span img 
-    {
+
+    .bc span img {
         width: 60px;
         margin: 0 11px;
     }
 
 }
-@media screen and (max-width:925px){
-    .ab 
-    {
+
+@media screen and (max-width:925px) {
+    .ab {
         width: 100%;
         justify-content: center;
     }
+
     .ab ul {
-       
+
         gap: 14px;
-    
-    } .ab> :nth-child(1) img 
-    {
+
+    }
+
+    .ab> :nth-child(1) img {
         width: 140px;
-}
-.bc p 
-{
-    width: 60vw;
-}
-.mm img 
-{  
- width: 50px;
-}
-.mm :nth-child(2)
-{
-    font-size: 18px;
-}.mm  :nth-child(3)
-{
-    font-size: 13px;
-}
+    }
+
+    .bc p {
+        width: 60vw;
+    }
+
+    .mm img {
+        width: 50px;
+    }
+
+    .mm :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .mm :nth-child(3) {
+        font-size: 13px;
+    }
 
 }
+
 @media screen and (max-width:641px) {
-      
+
     .bc> :nth-child(1) {
         font-size: 18px;
     }
-    .bc span img 
-    {
+
+    .bc span img {
         width: 40px;
         margin: 0 11px;
     }
+
     .ab ul {
-        
+
         gap: 16px;
-    
+
     }
-    
+
     .ab ul li {
-         font-size: 13px;
+        font-size: 13px;
     }
-    
+
     .ab ul li span {
         margin-left: 2px;
         width: 8px;
         height: 8px;
     }
- .ab> :nth-child(1) img 
-    {
+
+    .ab> :nth-child(1) img {
         width: 80px;
-}
-.ll 
-{
-    width: 400px;
-}
+    }
+
+    .ll {
+        width: 400px;
+    }
 
 }
